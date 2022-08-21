@@ -3,6 +3,7 @@
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
   --accent-color: #c6cd9a;
+  --outline-color: #6e941d;
 }
 .hero {
   text-align: center;
@@ -17,6 +18,7 @@
 }
 .hero h1 {
   font-size: 96px;
+  line-height: 1.5;
   font-family: var(--heading-font-family);
   font-weight: bold;
 }
@@ -25,6 +27,7 @@
   font-size: 24px;
   font-weight: normal;
   line-height: 2;
+  margin-top: 30px;
 }
 .btn-brand {
   color: white;
@@ -33,4 +36,54 @@
   border-radius: 4px;
   font-size: 18px;
   margin: 40px;
+}
+h2 {
+  font-size: 64px;
+  font-family: var(--heading-font-family);
+}
+p {
+  font-family: var(--default-font-family);
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.btn-brand-outline {
+  padding: 15px 35px;
+  border-radius: 4px;
+  font-size: 18px;
+  margin: 40px;
+  color: var(--outline-color);
+  border: 1px solid #6e941d;
+}
+.dots {
+  font-size: 25px;
+  padding: 40px 0 20px 0;
+}
+.row {
+  margin-top: 70px;
+}
+.discription-project {
+  padding-top: 120px;
+  margin-right: 20px;
+}
+.little-note {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+@media (max-width: 900px) {
+  .discription-project {
+    padding: 0;
+    text-align: center;
+  }
+  .discription-project h2 {
+    font-size: 44px;
+  }
+  .hero {
+    padding-top: 125px;
+    padding-bottom: 80px;
+  }
+  .hero h1 {
+    font-size: 50px;
+    line-height: 2;
+  }
 }
