@@ -10,7 +10,7 @@
   font-family: var(--default-font-family);
   background-color: rgba(0, 0, 0, 0.905);
   color: white;
-  padding: 200px 40px 150px 40px;
+  padding: 150px 40px 150px 40px;
 }
 .hero p {
   font-weight: bold;
@@ -95,10 +95,15 @@ p {
   padding: 0px 100px 0px 100px;
 }
 .workpage-content {
-  padding: 200px 40px 150px 40px;
+  margin: 0 auto;
+  max-width: 70%;
+  padding: 75px 40px 150px 40px;
 }
 .works {
   text-align: center;
+}
+.work-heading {
+  font-size: 56px;
 }
 
 .works h2 {
@@ -110,6 +115,37 @@ p {
   font-size: 14px;
   color: rgba(0, 0, 0, 0.7);
 }
+.logo {
+  max-height: 48px;
+}
+
+.navigation-bar {
+  background-color: rgb(24, 24, 24);
+  padding: 15px 30px 15px 30px;
+  margin: 0;
+}
+nav ul {
+  padding: 0px;
+  margin: 0px;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  font-family: var(--default-font-family);
+  font-size: 16px;
+  margin-left: 15px;
+}
+nav a {
+  text-decoration: none;
+  color: white;
+}
+nav a:hover,
+li.active a {
+  color: var(--outline-color);
+  transition: all 100ms ease-in-out;
+}
+
 @media (max-width: 600px) {
   .discription-project {
     padding: 0;
@@ -138,11 +174,12 @@ p {
   .about-hero img {
     margin-top: 10px;
   }
+  .workpage-content {
+    max-width: 90%;
+    padding: 65px 40px 150px 40px;
+  }
   .work-heading {
     font-size: 30px;
     line-height: 1.5;
-  }
-  .workpage-content {
-    padding: 100px 40px 150px 40px;
   }
 }
