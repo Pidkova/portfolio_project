@@ -77,7 +77,7 @@ p {
   padding-right: 10px;
 }
 .about-hero {
-  margin-top: opx;
+  margin-top: 0px;
 }
 .about-hero h2 {
   font-family: var(--default-font-family);
@@ -92,7 +92,8 @@ p {
   margin: 0px;
 }
 .about-section {
-  padding: 0px 100px 0px 100px;
+  max-width: 85%;
+  padding: 60px 100px 0px 100px;
 }
 .workpage-content {
   margin: 0 auto;
@@ -164,6 +165,7 @@ li.active a {
   }
   .about-section {
     padding: 0px;
+    margin-top: 40px;
   }
   .about-hero {
     text-align: center;
