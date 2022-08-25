@@ -35,7 +35,7 @@
   padding: 15px 35px;
   border-radius: 4px;
   font-size: 18px;
-  margin: 40px;
+  margin: 30px;
 }
 h1 {
   font-family: var(--heading-font-family);
@@ -146,14 +146,65 @@ li.active a {
   color: var(--outline-color);
   transition: all 100ms ease-in-out;
 }
+footer .contact-box {
+  background-color: #f6f8f0;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  margin: 0 auto;
+}
+footer .contact-box h4 {
+  font-family: var(--heading-font-family);
+  font-size: 48px;
+  font-weight: bold;
+}
+footer .contact-box p {
+  font-family: var(--default-font-family);
+  font-size: 18px;
+  font-weight: normal;
+  color: rgba(0, 0, 0, 0.7);
+}
 
-@media (max-width: 600px) {
+footer .email-link {
+  display: block;
+  text-decoration: none;
+  color: black;
+  font-family: var(--default-font-family);
+  font-size: 24px;
+}
+footer .email-link:hover {
+  cursor: pointer;
+  color: var(--outline-color);
+  transition: all 100ms ease-in-out;
+}
+.social-links .social-links-icon {
+  background-color: var(--accent-color);
+  color: white;
+  padding: 11px 12px;
+  border-radius: 60%;
+  text-decoration: none;
+  font-size: 20px;
+}
+.social-links .social-links-icon:hover {
+  cursor: pointer;
+  background-color: #6e941d;
+  transition: all 100ms ease-in-out;
+}
+
+@media (max-width: 850px) {
   .discription-project {
     padding: 0;
     text-align: center;
   }
   .discription-project h2 {
     font-size: 44px;
+  }
+
+  footer .contact-box h4 {
+    font-size: 24px;
+  }
+  footer .contact-box p {
+    font-size: 14px;
+    line-height: 1.2;
   }
   .hero {
     padding-top: 125px;
@@ -165,16 +216,13 @@ li.active a {
   }
   .about-section {
     padding: 0px;
-    margin-top: 40px;
+    margin-top: 80px;
   }
   .about-hero {
     text-align: center;
   }
   .about-hero h1 {
     font-size: 36px;
-  }
-  .about-hero img {
-    margin-top: 10px;
   }
   .workpage-content {
     max-width: 90%;
