@@ -209,7 +209,14 @@ div.container .contact-page {
 .contact-page .email-link {
   color: white;
 }
-
+.code-link {
+  color: #395203;
+  font-weight: bold;
+}
+.code-link:hover {
+  color: var(--outline-color);
+  transition: all 100ms ease-in-out;
+}
 @media (max-width: 820px) {
   .discription-project {
     padding: 0;
@@ -269,5 +276,10 @@ div.container .contact-page {
   }
   .contact-page {
     padding: 0px 30px 0px 30px;
+  }
+  .code-link-p {
+    padding-top: 10px;
+    font-size: 18px;
+    text-align: center;
   }
 }
