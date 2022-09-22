@@ -217,12 +217,12 @@ div.container .contact-page {
   color: var(--outline-color);
   transition: all 100ms ease-in-out;
 }
-.link-weather-app {
+.link-app {
   text-decoration: none;
   color: black;
 }
 
-.link-weather-app:hover {
+.link-app:hover {
   color: #395203;
 }
 
